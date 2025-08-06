@@ -11,7 +11,6 @@ public class Main {
         System.out.println("Книга - " + firstBook.getTitleBook() + ", год публикации " + secondBook.getYearOfTheBook() + ", автор -  " + firstAuthor.getNameAuthor() + " " + firstAuthor.getAuthorSurname());
         System.out.println("Книга - " + secondBook.getTitleBook() + ", год публикации " + secondBook.getYearOfTheBook() + ", автор - " + secondAuthor.getNameAuthor() + " " + secondAuthor.getAuthorSurname());
 
-
         System.out.println(firstBook);
         System.out.println(secondBook);
 

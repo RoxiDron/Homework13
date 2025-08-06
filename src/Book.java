@@ -37,7 +37,6 @@ public class Book {
                 Objects.equals(titleBook, book.titleBook) &&
                 Objects.equals(nameAuthor, book.nameAuthor);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(titleBook, nameAuthor, yearOfTheBook);

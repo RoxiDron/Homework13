@@ -20,7 +20,6 @@ public class Author {
     public String toString() {
         return nameAuthor + " " + authorSurName;
     }
-
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
